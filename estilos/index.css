@@ -1,0 +1,381 @@
+#nav-bar {
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  transition-delay: 3s;
+  min-height: 70px;
+  border-bottom: 0.5px solid black;
+}
+
+@media (min-width: 992px) {
+  #basic-navbar-nav #sections {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+#container-hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 92vh;
+  justify-content: center;
+  align-items: center;
+}
+#container-hero #desc {
+  display: flex;
+  flex-direction: column;
+  width: 84%;
+  align-items: start;
+  gap: 2px;
+}
+#container-hero #desc p {
+  font-size: 40px;
+  margin: 0;
+  color: white;
+  font-weight: 600;
+}
+#container-hero #desc .name {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 50px;
+}
+#container-hero button {
+  border: none;
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 120px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+#container-hero button:hover {
+  transform: translateX(15px);
+  transition: transform 0.5s ease-out;
+  background-color: white;
+  color: black;
+}
+
+#about-me-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+#about-me-container #about-me {
+  width: 84%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+#about-me-container #about-me div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about-me-container #about-me #me-desc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  margin: 50px;
+}
+#about-me-container #about-me #me-desc p {
+  line-height: 30px;
+  text-align: center;
+  width: auto;
+  max-width: 600px;
+  margin: 0;
+}
+#about-me-container #about-me #me-photo img {
+  height: 250px;
+  width: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (min-width: 768px) {
+  #about-me-container #about-me {
+    margin-top: 50px;
+  }
+  #about-me-container #about-me div {
+    gap: 40px;
+  }
+  #about-me-container #about-me #me-desc {
+    gap: 15px;
+  }
+}
+@media (min-width: 992px) {
+  #about-me-container #about-me div {
+    flex-direction: row;
+  }
+}
+#skills-container {
+  width: 100%;
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+#skills-container #skills {
+  width: 84%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+#skills-container #skills #skills-logo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+#skills-container #skills #skills-logo div img {
+  border-radius: 10px;
+  height: 60px;
+}
+
+#languages-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+}
+#languages-container #languages {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 84%;
+  gap: 60px;
+}
+#languages-container #languages div {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+#languages-container #languages div #spanish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+#languages-container #languages div #spanish p {
+  margin: 0;
+}
+#languages-container #languages div #spanish div {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+#languages-container #languages div #spanish div img {
+  border-radius: 30px;
+  height: 20px;
+}
+#languages-container #languages div #english {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+#languages-container #languages div #english p {
+  margin: 0;
+}
+#languages-container #languages div #english div {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+#languages-container #languages div #english div img {
+  border-radius: 30px;
+  height: 20px;
+}
+
+@media (min-width: 768px) {
+  #languages-container #languages div {
+    flex-direction: row;
+  }
+  #languages-container #languages div #spanish {
+    flex-direction: row;
+  }
+  #languages-container #languages div #english {
+    flex-direction: row;
+  }
+}
+#works-container {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  width: 100%;
+  overflow-y: hidden;
+}
+#works-container #works {
+  width: 84%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+#works-container #works h2 {
+  margin-bottom: 50px;
+}
+#works-container #works #work-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+#works-container #works #work-dashboard #work-content {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+#works-container #works #work-dashboard #work-content a img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#works-container #works #work-dashboard #work-content div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+#works-container #works #work-dashboard #work-content div h4 {
+  font-style: italic;
+  text-align: center;
+}
+#works-container #works #work-dashboard #work-content div p {
+  margin: 0;
+}
+#works-container #works #work-dashboard #work-content div div {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#works-container #works #work-dashboard #work-content div div img {
+  height: 25px;
+  width: 25px;
+}
+
+@media (min-width: 992px) {
+  #works-container #works #work-dashboard #work-content {
+    flex-direction: row;
+  }
+}
+#contact-container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+#contact-container #contact {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 84%;
+  gap: 30px;
+}
+#contact-container #contact #social-links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 500px;
+  height: auto;
+  padding: 30px;
+  box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.44);
+  margin-bottom: 50px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.823);
+}
+#contact-container #contact #social-links-container #social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#contact-container #contact #social-links-container #social-links #item1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#contact-container #contact #social-links-container #social-links #item2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#contact-container #contact #social-links-container #social-links #item3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#contact-container #contact #social-links-container #social-links .image-container img {
+  width: 30px;
+  color: black;
+}
+#contact-container #contact #social-links-container #social-links .text-container a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-decoration: none;
+  color: black;
+}
+#contact-container #contact #social-links-container #social-links .text-container a p {
+  margin: 0;
+}
+#contact-container #contact #social-links-container #social-links .text-container a img {
+  height: 12px;
+  width: 12px;
+}
+
+@media (min-width: 768px) {
+  #contact-container #contact #social-links-container {
+    width: 400px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#ffb7f3, #ffbbfa);
+}
+
+#footer-container {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: white;
+  border-top: 0.5px solid black;
+}
+#footer-container #footer {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+}
+#footer-container #footer p {
+  margin: 0;
+}/*# sourceMappingURL=index.css.map */

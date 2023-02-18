@@ -1,0 +1,17 @@
+#footer-container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: white;
+    border-top: 0.5px solid black;
+    #footer {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 0 15px;
+        p {
+            margin: 0;
+        }
+    }
+}
