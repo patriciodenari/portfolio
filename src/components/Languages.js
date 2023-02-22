@@ -7,20 +7,20 @@ const Languages = () => {
                     <div id="spanish">
                         <p>Español</p>
                         <div>
-                            <img src="./img/star.png" />
-                            <img src="./img/star.png" />
-                            <img src="./img/star.png" />
-                            <img src="./img/star.png" />
-                            <img src="./img/star.png" />
+                            <img src="./img/y-circle.png" />
+                            <img src="./img/y-circle.png" />
+                            <img src="./img/y-circle.png" />
+                            <img src="./img/y-circle.png" />
+                            <img src="./img/y-circle.png" />
                         </div>
                     </div>
                     <div id="english">
                         <p>Ingles</p>
                         <div>
-                            <img src="./img/star.png" />
-                            <img src="./img/star.png" />
-                            <img src="./img/star.png" />
-                            <img src="./img/star.png" />
+                            <img src="./img/y-circle.png" />
+                            <img src="./img/y-circle.png" />
+                            <img src="./img/y-circle.png" />
+                            <img src="./img/y-circle.png" />
                         </div>
                     </div>
                 </div>

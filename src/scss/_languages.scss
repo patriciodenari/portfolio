@@ -10,6 +10,11 @@
         align-items: center;
         width: 84%;
         gap: 60px;
+
+        h2 {
+            color: white;
+            font-size: 40px;
+        }
         div {
             display: flex;
             flex-direction: column;
@@ -23,6 +28,8 @@
                 gap: 15px;
                 p{
                     margin: 0;
+                    color: white;
+                    font-size: 19px;
                 }
                 div {
                     display: flex;
@@ -41,6 +48,8 @@
                 gap: 15px;
                 p {
                     margin: 0;
+                    color: white;
+                    font-size: 19px;
                 }
                 div {
                     display: flex;

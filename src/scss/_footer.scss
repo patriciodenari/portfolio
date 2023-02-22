@@ -3,7 +3,7 @@
     justify-content: center;
     height: 100px;
     background-color: white;
-    border-top: 0.5px solid black;
+    border-top: 2px solid #f8a218;
     #footer {
         display: flex;
         height: 100%;
@@ -12,6 +12,7 @@
         padding: 0 15px;
         p {
             margin: 0;
+            font-weight: 600;
         }
     }
 }

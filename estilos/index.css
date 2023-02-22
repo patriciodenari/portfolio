@@ -1,14 +1,23 @@
 #nav-bar {
   background-color: rgb(255, 255, 255);
-  position: sticky;
-  top: 0;
   transition-delay: 3s;
   min-height: 70px;
-  border-bottom: 0.5px solid black;
+  border-bottom: 2px solid #f8a218;
+}
+#nav-bar #basic-navbar-nav #sections {
+  margin-top: 20px;
+  gap: 15px;
+}
+#nav-bar #basic-navbar-nav #sections a {
+  padding: 0;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 @media (min-width: 992px) {
-  #basic-navbar-nav #sections {
+  #nav-bar #basic-navbar-nav #sections {
+    margin-top: 0;
+    gap: 20px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -18,15 +27,16 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 92vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
+  margin-bottom: -150px;
 }
 #container-hero #desc {
   display: flex;
   flex-direction: column;
   width: 84%;
-  align-items: start;
+  align-items: center;
   gap: 2px;
 }
 #container-hero #desc p {
@@ -40,7 +50,10 @@
   font-weight: 900;
   font-size: 50px;
 }
-#container-hero button {
+#container-hero a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
   background-color: black;
   color: white;
@@ -48,12 +61,18 @@
   width: 120px;
   margin-top: 15px;
   border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
 }
-#container-hero button:hover {
-  transform: translateX(15px);
+#container-hero a:hover {
+  transform: translateY(15px);
   transition: transform 0.5s ease-out;
-  background-color: white;
+  box-shadow: 0px 0px 30px -10px #f8a218;
+  border: 4px solid black;
+  background-color: #f8a218;
   color: black;
+  font-weight: 400;
+  transform: scale(1.14);
 }
 
 #about-me-container {
@@ -71,7 +90,11 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 150px;
+}
+#about-me-container #about-me h2 {
+  color: white;
+  font-size: 40px;
 }
 #about-me-container #about-me div {
   display: flex;
@@ -92,6 +115,8 @@
   width: auto;
   max-width: 600px;
   margin: 0;
+  color: white;
+  font-size: 17px;
 }
 #about-me-container #about-me #me-photo img {
   height: 250px;
@@ -102,7 +127,7 @@
 
 @media (min-width: 768px) {
   #about-me-container #about-me {
-    margin-top: 50px;
+    margin-top: 150px;
   }
   #about-me-container #about-me div {
     gap: 40px;
@@ -123,11 +148,16 @@
   justify-content: center;
 }
 #skills-container #skills {
+  margin-top: 150px;
   width: 84%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 50px;
+}
+#skills-container #skills h2 {
+  font-size: 40px;
+  color: white;
 }
 #skills-container #skills #skills-logo {
   display: flex;
@@ -154,6 +184,10 @@
   width: 84%;
   gap: 60px;
 }
+#languages-container #languages h2 {
+  color: white;
+  font-size: 40px;
+}
 #languages-container #languages div {
   display: flex;
   flex-direction: column;
@@ -168,6 +202,8 @@
 }
 #languages-container #languages div #spanish p {
   margin: 0;
+  color: white;
+  font-size: 19px;
 }
 #languages-container #languages div #spanish div {
   display: flex;
@@ -186,6 +222,8 @@
 }
 #languages-container #languages div #english p {
   margin: 0;
+  color: white;
+  font-size: 19px;
 }
 #languages-container #languages div #english div {
   display: flex;
@@ -226,6 +264,8 @@
 }
 #works-container #works h2 {
   margin-bottom: 50px;
+  color: white;
+  font-size: 40px;
 }
 #works-container #works #work-dashboard {
   display: flex;
@@ -247,6 +287,7 @@
   border-radius: 10px;
   -o-object-fit: contain;
      object-fit: contain;
+  box-shadow: 0px 0px 20px -10px #f8a218;
 }
 #works-container #works #work-dashboard #work-content div {
   display: flex;
@@ -257,9 +298,11 @@
 #works-container #works #work-dashboard #work-content div h4 {
   font-style: italic;
   text-align: center;
+  color: white;
 }
 #works-container #works #work-dashboard #work-content div p {
   margin: 0;
+  color: white;
 }
 #works-container #works #work-dashboard #work-content div div {
   margin-top: 10px;
@@ -291,6 +334,10 @@
   width: 84%;
   gap: 30px;
 }
+#contact-container #contact h2 {
+  color: white;
+  font-size: 40px;
+}
 #contact-container #contact #social-links-container {
   display: flex;
   flex-direction: column;
@@ -299,10 +346,10 @@
   max-width: 500px;
   height: auto;
   padding: 30px;
-  box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.44);
+  box-shadow: 0px 0px 30px -10px #f8a218;
   margin-bottom: 50px;
   border-radius: 50px;
-  background-color: rgba(255, 255, 255, 0.823);
+  background-color: white;
 }
 #contact-container #contact #social-links-container #social-links {
   display: flex;
@@ -359,7 +406,12 @@
 }
 
 body {
-  background: linear-gradient(#ffb7f3, #ffbbfa);
+  background: linear-gradient(#373637, #191518);
+}
+
+.active {
+  border-bottom: 0.5px solid black;
+  transition: all 2s ease-in-out;
 }
 
 #footer-container {
@@ -367,7 +419,7 @@ body {
   justify-content: center;
   height: 100px;
   background-color: white;
-  border-top: 0.5px solid black;
+  border-top: 2px solid #f8a218;
 }
 #footer-container #footer {
   display: flex;
@@ -378,4 +430,5 @@ body {
 }
 #footer-container #footer p {
   margin: 0;
+  font-weight: 600;
 }/*# sourceMappingURL=index.css.map */

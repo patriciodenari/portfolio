@@ -1,7 +1,7 @@
 import './App.scss';
 import NavBar from './components/NavBar';
-import Hero from './components/Hero';
-import AboutMe from './components/AboutMe';
+import {Hero, AboutMe} from './components/Hero';
+// import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Languages from './components/Languages';
 import Works from './components/Works';

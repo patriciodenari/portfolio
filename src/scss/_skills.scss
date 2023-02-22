@@ -5,11 +5,17 @@
     justify-content: center;
 
     #skills {
+        margin-top: 150px;
         width: 84%;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 50px;
+
+        h2 {
+            font-size: 40px;
+            color: white;
+        }
 
         #skills-logo {
             display: flex;

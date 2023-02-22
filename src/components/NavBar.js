@@ -4,16 +4,16 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const NavBar = () => {
   return (
-    <Navbar id="nav-bar" expand="lg">
+    <Navbar id="nav-bar" expand="lg" className=' fixed-top'>
       <Container id='container'>
-        <Navbar.Brand href="#home" id='logo'>Patricio Denari</Navbar.Brand>
+        <Navbar.Brand href="#container-hero" id='logo' data-bs-toggle="collapse">Patricio Denari</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className='colapse'>
           <Nav id='sections' className="me-auto">
-            <Nav.Link href="#home">Acerca de mí</Nav.Link>
-            <Nav.Link href="#link">Skills</Nav.Link>
-            <Nav.Link href="#link">Trabajos</Nav.Link>
-            <Nav.Link href="#link">Contacto</Nav.Link>
+            <Nav.Link href="#about-me-container" className='colapse'>Acerca de mí</Nav.Link>
+            <Nav.Link href="#skills-container">Skills</Nav.Link>
+            <Nav.Link href="#works-container">Trabajos</Nav.Link>
+            <Nav.Link href="#contact-container">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

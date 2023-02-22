@@ -5,5 +5,10 @@
 }
 
 body {
-    background: linear-gradient(#ffb7f3, #ffbbfa);
+    background: linear-gradient(#373637, #191518);
+}
+
+.active {
+    border-bottom: 0.5px solid black;
+    transition:  all 2s ease-in-out;
 }
