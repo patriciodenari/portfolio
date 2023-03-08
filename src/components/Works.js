@@ -55,6 +55,42 @@ const Works = () => {
                                 <img src="./img/github.png" alt="github-logo"/>
                             </div>
                         </div>
+                    
+                    </div>
+                    <h2>Otros Proyectos</h2>
+                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-once="false" id="work-content">
+                        <div>
+                            <h4>Movies Trailers Website</h4>
+                            <p>Tecnologias utilizadas:</p>
+                            <div>
+                                <img src="./img/html.png" alt="html-logo"/>
+                                <img src="./img/css.png" alt="css-logo"/>
+                                <img src="./img/js.png" alt="js-logo"/>
+                                <img src="./img/react.png" alt="react-logo"/>
+                                <img src="./img/git.png" alt="git-logo"/>
+                                <img src="./img/github.png" alt="github-logo"/>
+                            </div>
+                        </div>
+                        <a href="https://movies-trailers-app.netlify.app/" target='_blank'>
+                            <img src="./img/movies-trailers.png" alt="work4"/>
+                        </a>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="2000" data-aos-once="false" id="work-content">
+                        <a href="https://rick-and-morty-apis.netlify.app/" target='_blank'>
+                            <img src="./img/rick-morty.png" alt="work5"/>
+                        </a>
+                        <div>
+                            <h4>Rick and Morty's App</h4>
+                            <p>Tecnologias utilizadas:</p>
+                            <div>
+                                <img src="./img/html.png" alt="html-logo"/>
+                                <img src="./img/css.png" alt="css-logo"/>
+                                <img src="./img/js.png" alt="js-logo"/>
+                                <img src="./img/git.png" alt="git-logo"/>
+                                <img src="./img/github.png" alt="github-logo"/>
+                            </div>
+                        </div>
+                    
                     </div>
                 </div>
             </div>
