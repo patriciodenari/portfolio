@@ -1,26 +1,19 @@
 const Languages = () => {
     return(
         <div id="languages-container">
-            <div id="languages">
-                <h2>Idiomas</h2>
+            <div data-aos="fade-up" data-aos-duration="500" id="languages">
+                <h2>Languages</h2>
                 <div>
                     <div id="spanish">
-                        <p>Español</p>
+                        <img src="./img/spain.png"/>
                         <div>
-                            <img src="./img/y-circle.png" />
-                            <img src="./img/y-circle.png" />
-                            <img src="./img/y-circle.png" />
-                            <img src="./img/y-circle.png" />
-                            <img src="./img/y-circle.png" />
+                            <p>Native</p>
                         </div>
                     </div>
                     <div id="english">
-                        <p>Ingles</p>
+                        <img src="./img/usa.png"/>
                         <div>
-                            <img src="./img/y-circle.png" />
-                            <img src="./img/y-circle.png" />
-                            <img src="./img/y-circle.png" />
-                            <img src="./img/y-circle.png" />
+                            <p>Advanced</p>
                         </div>
                     </div>
                 </div>

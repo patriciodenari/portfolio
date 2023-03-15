@@ -5,10 +5,10 @@
 }
 
 body {
-    background: linear-gradient(#373637, #191518);
+    background-color: #101628;
 }
 
 .active {
-    border-bottom: 0.5px solid black;
+    border-bottom: 1px solid white;
     transition:  all 2s ease-in-out;
 }

@@ -12,7 +12,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 50px;
+        margin-bottom: -50px;
         margin-top: 150px;
         h2 {
             color: white;
@@ -30,9 +30,7 @@
             flex-direction: row;
             align-items: center;
             width: auto;
-            margin: 50px;
-
-
+            margin: 20px;
 
             p {
                 line-height: 30px;
@@ -65,6 +63,9 @@
             }
             #me-desc {
                 gap: 15px;
+                p {
+                    text-align: left;
+                }
             }
         }
     }

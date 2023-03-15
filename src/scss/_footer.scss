@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     height: 100px;
-    background-color: white;
+    background-color:#101628;;
     border-top: 2px solid #f8a218;
     #footer {
         display: flex;
@@ -11,6 +11,7 @@
         text-align: center;
         padding: 0 15px;
         p {
+            color: white;
             margin: 0;
             font-weight: 600;
         }

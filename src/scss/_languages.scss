@@ -23,41 +23,35 @@
 
             #spanish {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 align-items: center;
                 gap: 15px;
-                p{
+                img {
                     margin: 0;
-                    color: white;
-                    font-size: 19px;
+                    height: 60px;
+                    width: 60px;
                 }
                 div {
-                    display: flex;
-                    flex-direction: row;
-                    gap: 5px;
-                    img {
-                        border-radius: 30px;
-                        height: 20px;
+                    p {
+                        color: white;
+                        margin: 0;
                     }
                 }
             }
             #english {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 align-items: center;
                 gap: 15px;
-                p {
+                img {
                     margin: 0;
-                    color: white;
-                    font-size: 19px;
+                    height: 60px;
+                    width: 60px;
                 }
                 div {
-                    display: flex;
-                    flex-direction: row;
-                    gap: 5px;
-                    img {
-                        border-radius: 30px;
-                        height: 20px;
+                    p {
+                        color: white;
+                        margin: 0;
                     }
                 }
             }
@@ -73,9 +67,19 @@
                 flex-direction: row;
                 #spanish {
                     flex-direction: row;
+                    div {
+                        p {
+                            font-size: 23px;
+                        }
+                    }
                 }
                 #english {
                     flex-direction: row;
+                    div {
+                        p {
+                            font-size: 23px;
+                        }
+                    }
                 }
             }
         }

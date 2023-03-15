@@ -1,8 +1,8 @@
 const Contact = () => {
     return (
         <div id="contact-container">
-            <div id="contact">
-                <h2>Contacto</h2>
+            <div data-aos="fade-up" data-aos-duration="500"  id="contact">
+                <h2>Contact</h2>
                 <div id="social-links-container">
                     <div id="social-links">
                         <div id="item1">

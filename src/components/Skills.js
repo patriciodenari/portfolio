@@ -1,7 +1,7 @@
 const Skills = () => {
     return(
         <div id="skills-container">
-            <div id="skills">
+            <div  data-aos="fade-up" data-aos-duration="500" id="skills">
                 <h2>Skills</h2>
                 <div id="skills-logo">
                     <div>
